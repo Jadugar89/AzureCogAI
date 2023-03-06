@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AzureCogAIXamarin.Views.TextView">
+    <ContentPage.Content>
+        <ScrollView >
+            <StackLayout  Orientation="Vertical" >
+                <Label HorizontalTextAlignment="Center" Text="Read Text From Photo"/>
+                <Image  HeightRequest="600" Source="{Binding ImageFromAI}" VerticalOptions="StartAndExpand" ></Image>
+                <Label  VerticalTextAlignment="Center" VerticalOptions="End" Text="{Binding TextFromAI}"/>
+                <Button Text="Send Image to Ai" Command="{Binding SendImageToAI}" VerticalOptions="End"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
