@@ -9,7 +9,7 @@
 
 ## General Information
 - Project create to test Azure Computer vision.
-- Important was to check posibilies which gives this servis for developers.
+- The goal is to check the possibilities which give this service to developers.
 
 ## Technologies Used
 - WPF -.Net 6
